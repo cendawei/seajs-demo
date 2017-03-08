@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"7e259fa799b7150d2901080a219374e1"}*/
+define(function(require){return require("./template")("tmpl",function(a){"use strict";var b=this,c=(b.$helpers,a.isAdmin),d=b.$escape,e=a.title,f=b.$each,g=a.list,h=(a.value,a.i,"");return c&&(h+=" <h1>",h+=d(e),h+="</h1> <ul> ",f(g,function(a,b){h+=" <li>\u7d22\u5f15 ",h+=d(b+1),h+=" \uff1a",h+=d(a),h+="</li> "}),h+=" </ul> "),new String(h)})});

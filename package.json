@@ -1,0 +1,17 @@
+{
+  "name": "seajstest",
+  "version": "1.0.0",
+  "description": "seajs+tmodjs demo",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cendawei",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-tmod": "^0.2.10"
+  }
+}
